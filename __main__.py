@@ -1,6 +1,10 @@
 import discord
+import configparser
+import os
 
-TOKEN='NTM5NjQxNzMxNzEzMzM1MzAx.DzFUsg.zfNujfZZ8pNc_Lhw3TfNPUPeGAQ'
+config = configparser.ConfigParser()
+
+TOKEN='NTM5NjQxNzMxNzEzMzM1MzAx.XKP8Vw.XaF8Gvbj1Xckn0NF-dMhhggAaJk'
 
 client = discord.Client()
 
