@@ -3,8 +3,9 @@ import configparser
 import os
 
 config = configparser.ConfigParser()
+config.read('bot_config.ini')
 
-TOKEN='NTM5NjQxNzMxNzEzMzM1MzAx.XKP8Vw.XaF8Gvbj1Xckn0NF-dMhhggAaJk'
+TOKEN=config['discord']['app_token']
 
 client = discord.Client()
 
